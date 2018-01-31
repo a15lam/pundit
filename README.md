@@ -10,6 +10,7 @@ It is built using the Laravel PHP framework and Vuejs + Bootstrap.
 
 * Please setup a MySQL database for this application to connect to.
 * Please make sure you have PHP version 7.0.0+ (required by Laravel) installed on your machine.
+* Please make sure you have composer (PHP dependency manager) installed on your machine (https://getcomposer.org/download/).
 
 #### Installation:
 
