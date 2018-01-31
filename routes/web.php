@@ -16,7 +16,3 @@ Route::get('/', 'Controller@listReviews');
 Route::get('/review', 'Controller@newReview')->name('review');
 
 Route::get('/review/{id}', 'Controller@getReview');
-
-//Auth::routes();
-
-//Route::get('/home', 'HomeController@index')->name('home');
