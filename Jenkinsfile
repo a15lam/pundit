@@ -11,6 +11,7 @@ pipeline {
 		sh 'php artisan key:generate'
 		sh 'touch database/database.sqlite'
 		sh 'php artisan migrate --seed'
+		sh 'vendor/bin/phpunit tests/Unit/'
             }
         }
     }
