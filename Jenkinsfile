@@ -13,7 +13,7 @@ pipeline {
                 sh 'php artisan migrate --seed'
             }
         }
-        state('Test'){
+        stage('Test'){
             steps {
                 sh 'vendor/bin/phpunit tests/Unit/'
             }
