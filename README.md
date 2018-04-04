@@ -29,6 +29,14 @@ Edit the .env file and provide your MySQL connection information using the envir
     DB_USERNAME=homestead
     DB_PASSWORD=secret
 
+To use use Sqlite for database run the following command to create a Sqlite db file
+
+    > touch database/database.sqlite
+
+And then in .evn file only provide the following information about Database
+
+    DB_CONNECTION=sqlite
+
 Setup database tables by running the following command.
 
     > php artisan migrate --seed
